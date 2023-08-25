@@ -46,7 +46,7 @@ class Program
             if (balance > maxBalance)
             {
                 maxBalance = balance;
-                crossedZeroAfterMax = false; // Reset the flag when a new max is reached
+                crossedZeroAfterMax = false;
             }
             if (balance == 0 && maxBalance > 0)
             {
